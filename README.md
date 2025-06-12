@@ -9,7 +9,7 @@
 - When the music stops:
   - Existing particles **gracefully fade out** and no new particles are generated
 
-### Details about My Personal Approach to the Animation Group Code
+## Details about My Personal Approach to the Animation Group Code
 
 I chose **audio** as the driving force for my individual animation contribution.
 
@@ -24,4 +24,7 @@ The **visual effects** of particle trajectories are animated using `p5.Vector`, 
 - The **transparency (alpha)** of each trail point gradually fades, creating a **motion blur effect**
 - Particles achieve **unique and natural movement** by combining amplitude-driven **motion speed** and **density control**
 
-These behaviors contribute to a sound-reactive background that maintains dynamic harmony with the static peace dove drawing in the center.
+## Inspiration
+- The visual inspiration partly comes from the following two works on openprocessing:
+  - https://openprocessing.org/sketch/751983 — Inspired by the flow and blurred trail effect of dynamic particles
+  - https://openprocessing.org/sketch/2666260 — Inspired my design of audio-triggered particle density and movement rhythm
