@@ -29,7 +29,7 @@ The **visual effects** of particle trajectories are animated using `p5.Vector`, 
   - https://openprocessing.org/sketch/751983 — Inspired by the flow and blurred trail effect of dynamic particles
   - https://openprocessing.org/sketch/2666260 — Inspired my design of audio-triggered particle density and movement rhythm
 
-## Inspiration
+## technical explanation
 I only modified the background part of the original code to enhance the interactive effect between music and vision in the following ways:
 
  - Added spectrum analysis background animation:
@@ -47,3 +47,19 @@ I only modified the background part of the original code to enhance the interact
  - If the particle leaves the canvas boundary, it is reset to a random position to achieve continuous dynamic flow.
 
 **（This part of the function is not included in the original course code and is my expansion of the project.）**
+
+###  External Sources and References
+
+This project integrates techniques and knowledge gathered from the following reputable online resources:
+
+- **p5.js Official Documentation**  
+  [https://p5js.org/reference/#/p5.Vector/random2D]
+   https://p5js.org/reference/p5/mousePressed/
+
+- **OpenProcessing Community Projects**  
+ https://openprocessing.org/sketch/2666260
+ https://openprocessing.org/sketch/751983 
+
+
+- **AI (ChatGPT)**  
+It assisted in debugging, improving readability, and ensuring correct application of the p5.sound and p5. Vector APIs while keeping original logic intact.
