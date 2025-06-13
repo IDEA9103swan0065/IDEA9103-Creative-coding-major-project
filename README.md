@@ -77,4 +77,6 @@ This project integrates techniques and knowledge gathered from the following rep
 
 
 - **AI (ChatGPT)**  
-It assisted in debugging, improving readability, and ensuring correct application of the p5.sound and p5. Vector APIs while keeping original logic intact.
+ChatGPT helped me understand how to apply code that I hadn't learned in class and explained why the code wasn't running.
+
+## ShuyaoWang swan0065
