@@ -44,6 +44,7 @@ I only modified the background part of the original code to enhance the interact
  - Use mousePressed() to add interactivity
  - createButton() and mousePressed() are used for user interaction (play/pause music, click to generate particles).
  - Use colorMode(HSB) to generate more visually expressive colors.
+
  **This section covers the key points discussed in class**
 
  - p5.Amplitude(): Get the overall volume (amplitude) of the current music
@@ -58,7 +59,8 @@ I only modified the background part of the original code to enhance the interact
 
  - Use the autoGenerateBlobs() function to control rhythmic generation through rhythm thresholds and frameCount % 10.
  - Use amp.getLevel() (volume) to determine whether to trigger new particles.
-**This part of the function is not included in the original course code and is my expansion of the project**
+
+ **This part of the function is not included in the original course code and is my expansion of the project**
 
 
 ## External Sources and References
