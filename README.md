@@ -79,4 +79,4 @@ This project integrates techniques and knowledge gathered from the following rep
 - **AI (ChatGPT)**  
 ChatGPT helped me understand how to apply code that I hadn't learned in class and explained why the code wasn't running.
 
-## ShuyaoWang swan0065
+                                                ## ShuyaoWang swan0065
