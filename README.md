@@ -27,7 +27,7 @@ The **visual effects** of particle trajectories are animated using `p5.Vector`, 
 ## Inspiration
 - The visual inspiration partly comes from the following two works on openprocessing:
   - https://openprocessing.org/sketch/751983 — Inspired by the flow and blurred trail effect of dynamic particles
-   <div align=centre> <img src="assets/P1.jpeg" width="200px">
+   <img src="assets/P1.jpeg" width="200px">
   - https://openprocessing.org/sketch/2666260 — Inspired my design of audio-triggered particle density and movement rhythm
 
 ## Technical explanation
