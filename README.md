@@ -39,21 +39,27 @@ The **visual effects** of particle trajectories are animated using `p5.Vector`, 
 ## Technical explanation
 I only modified the background part of the original code to enhance the interactive effect between music and vision in the following ways:
 
- - Added spectrum analysis background animation:
+ - Use createCanvas() to create an adaptive canvas
+ - Use draw() to implement frame loop refresh animation
+ - Use mousePressed() to add interactivity
+ - createButton() and mousePressed() are used for user interaction (play/pause music, click to generate particles).
+ - Use colorMode(HSB) to generate more visually expressive colors.
+ **This section covers the key points discussed in class**
 
- - Use p5.FFT() to obtain the frequency data of the currently playing music.
+ - p5.Amplitude(): Get the overall volume (amplitude) of the current music
+ - p5.FFT(): Get the spectrum data (frequency energy distribution)
+ 
+ - **Dynamically adjust the particle generation frequency, size, and speed based on volume. Use the map() function to map volume or frequency values to visual variables (such as color, size)**
 
-  - Analyze the bass (low frequency), mid (intermediate frequency), and treble (high frequency) energy values ​​and map them to the RGB color of the background particles.
 
- - Use the map() function to control the change of particle size according to the overall volume level to form a visual "jumping" effect.
+ - Use p5.Vector.random2D() to generate random movement directions (unit vectors)
+ - Particles gradually fade away (use trail.alpha *= 0.85 to simulate the “trail” effect)
+ - **Apply to each particle to record its own movement trajectory and draw the trail visual effect**
 
-**Movement mechanism of background particles**
+ - Use the autoGenerateBlobs() function to control rhythmic generation through rhythm thresholds and frameCount % 10.
+ - Use amp.getLevel() (volume) to determine whether to trigger new particles.
+**This part of the function is not included in the original course code and is my expansion of the project**
 
- - Each particle has a direction vector (p5.Vector.random2D()) and moves continuously in the canvas.
-
- - If the particle leaves the canvas boundary, it is reset to a random position to achieve continuous dynamic flow.
-
-**（This part of the function is not included in the original course code and is my expansion of the project.）**
 
 ## External Sources and References
 
